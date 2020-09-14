@@ -306,7 +306,7 @@ img{
     }
 }
 
-/* ===== MEDIA QUERIES=====*/
+
 @media screen and(min-width: 768px){
     body{
         margin: 0;
@@ -376,20 +376,7 @@ img{
             }
         }
     }
-    .skills{
-        &__container{
-            grid-template-columns: repeat(2,1fr);
-            align-items: center;
-            text-align: initial;
-        }
-    }
-    .work{
-        &__container{
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(2, 1fr);
-            column-gap: 2rem;
-        }
-    }
+
     .contact{
         &__form{
             width: 360px;
